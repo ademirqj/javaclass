@@ -103,5 +103,5 @@ public class MySelf {
 ```
 ### The Result
 ...
-
+![](https://github.com/ademirqj/javaclass/blob/master/jar/imgresult.png)
 
