@@ -1,4 +1,4 @@
-#Create a Simple Java Class
+#Create a Simple Java Class with GUI elements.
 ### Create a Java class to print your name, nationality and biggest dream.
 ### Requirements:
 - You need to display the results on screen using a JFrame;
@@ -103,4 +103,4 @@ public class MySelf {
 ```
 ### The Result
 
-###End
+
