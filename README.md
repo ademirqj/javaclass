@@ -102,6 +102,10 @@ public class MySelf {
 }
 ```
 ### The Result
-...
+
 ![](https://github.com/ademirqj/javaclass/blob/master/jar/imgresult.png)
+
+### 
+Also I created a .jar and a .bat to display the app in Windows System.
+That is it.
 
