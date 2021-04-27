@@ -1,23 +1,23 @@
-#Create a Simple Java Class with GUI elements.
+# Create a Simple Java Class with GUI elements.
 ### Create a Java class to print your name, nationality and biggest dream.
 ### Requirements:
 - You need to display the results on screen using a JFrame;
 
 
 ## Starting the Project
-####Starting Code
+#### Starting Code
  - The objective  here is print on screen a name, nationality and biggest dream.
  - To make this simple project we use  the GUI concepts,  so let's start.
  - We use a basic html to display the informations inside a JLabel, because I am a great dreamer and my dreams has many letters and words to display.
  
  
-##Begin Explain source code MySefl.JAVA
-1. Create the Package named myself
+## Begin Explain source code MySefl.JAVA
+- I create the Package named myself
 
 ```java
 	package myself;
 ```
-1.2 We need import 3 GUI Swing to built the interfaces.
+- We need import 3 GUI Swing to built the interfaces.
 
 * JLabel - To print the text.
 * JPanel - To receive the JLabel components.
@@ -28,11 +28,11 @@ import javax.swing.JLabel;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 ```
-1.3 Now we create a class named MySelf that's gona be our object to start with the GUI .
+- Now we create a class named MySelf that's gona be our object to start with the GUI .
 ```java
 public class MySelf {}
 ```
-1.4 Now we create a contructor inside and make a reference in a main. 
+- Now we create a contructor inside and make a reference in a main. 
 ```java
 public class MySelf {
        public MySelf(){
@@ -42,7 +42,7 @@ public class MySelf {
 	    public static void main(String [] args) throws Exception {
         new MySelf();
 ```
-1.5 Following we make a  JPanel and a JLabel, and put the text inside with an html to display, and after this we call a label from panel. 
+- Following we make a  JPanel and a JLabel, and put the text inside with an html to display, and after this we call a label from panel. 
 ```java
 public void about() {
 
@@ -52,7 +52,7 @@ public void about() {
 
         panel.add(label);
 ```
-1.6 To finish we make a window to receve a JPanel and display the result, here we put some atributes to JFrame, like the size, name and actions.
+- To finish we make a window to receve a JPanel and display the result, here we put some atributes to JFrame, like the size, name and actions.
 ```java
  JFrame frame = new JFrame("Who Am I");
         frame.add(panel);
@@ -63,7 +63,7 @@ public void about() {
         frame.setVisible(true);
 
 ```
-1.7 The entire code.
+### The entire code.
 ```java
 package myself;
 
@@ -105,7 +105,9 @@ public class MySelf {
 
 ![](https://github.com/ademirqj/javaclass/blob/master/jar/imgresult.png)
 
-### 
+### Notes
 Also I created a .jar and a .bat to display the app in Windows System.
 That is it.
+
+### End
 
